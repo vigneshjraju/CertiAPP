@@ -16,7 +16,7 @@ services:
       context: backend
       dockerfile: ./Dockerfile
     ports:
-      - 4000:5000
+      - 5000:5000
 
   ui:
     image: ui
@@ -27,7 +27,7 @@ services:
       context: ui
       dockerfile: ./Dockerfile
     ports:
-      - 5000:4000
+      - 4000:4000
 
 volumes:
   mongo_volume:
