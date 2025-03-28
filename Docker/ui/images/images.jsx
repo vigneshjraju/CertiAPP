@@ -1,0 +1,1 @@
+export {default as certi} from './cert.png'
